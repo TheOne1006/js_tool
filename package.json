@@ -1,0 +1,16 @@
+{
+  "name": "js_validation_tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheOne1006/js_validation_tool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheOne1006/js_validation_tool/issues"
+  },
+  "homepage": "https://github.com/TheOne1006/js_validation_tool#readme"
+}
