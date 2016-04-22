@@ -1,0 +1,40 @@
+{
+    # 环境设置
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    # eslint 推荐配置
+    "extends": "eslint:recommended",
+    # 自定义规则
+    # "ruleName" :[
+    #   "off/warn/error", // 错误级别
+    #   "参数"
+    # ]
+    "rules": {
+        "no-console": [
+            "error",
+            { allow: ["log", "warn", "error"] }
+        ],
+        "indent": [
+            "error",
+            4
+        ],
+        # 换行风格 unix
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        # 单引号
+        "quotes": [
+            "warn",
+            "single"
+        ],
+        # 尾部分号
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}

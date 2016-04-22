@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/TheOne1006/js_validation_tool/issues"
   },
-  "homepage": "https://github.com/TheOne1006/js_validation_tool#readme"
+  "homepage": "https://github.com/TheOne1006/js_validation_tool#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
 }

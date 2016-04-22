@@ -4,5 +4,9 @@
   "description": "",
   "main": "",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0"
+  }
 }
