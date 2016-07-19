@@ -1,5 +1,6 @@
-var CommonsChunkPlugin = require("../../node_modules/webpack/lib/optimize/CommonsChunkPlugin");
-
+/**
+ * loader
+ */
 module.exports = {
     entry: {
         m1: './src/app.js',
@@ -9,7 +10,12 @@ module.exports = {
         path: "build",
         filename: '[name].js?[chunkhash]',
     },
-    plugins: [
-        new CommonsChunkPlugin('angular', 'angular.bundle.js')
-    ]
+    module: {
+      loaders: [
+        {
+          test: /\.scss/,
+          loader: 'style-loader!css-loader!autoprefixer-loader?{browsers:["last 2 versions"]}!sass-loader?outputStyle=expanded'
+        }
+      ]
+    }
 };
