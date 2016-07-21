@@ -19,6 +19,7 @@ module.exports = {
       historyApiFallback: true,
       hot: true,
       noInfo: false,
+      colors: true,
       publicPath: '/build/'
     },
     // 开启 loaders debug 模式

@@ -5,7 +5,7 @@
 ```bash
 $ cd lesson_05
 # 参数
-$ webpack-dev-server --hot --quiet
+$ webpack-dev-server --history-api-fallback --colors --content-base ./  --port 8090 --public-path /build/
 # 使用server.js 配置
 $ node server
 ```
